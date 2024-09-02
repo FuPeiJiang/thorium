@@ -48,6 +48,7 @@ printf "\n"
 
 cd ${CR_SRC_DIR} &&
 
+git fetch origin refs/tags/$THOR_VER:refs/tags/$THOR_VER &&
 git checkout -f tags/$THOR_VER &&
 
 cd ~/thorium &&
